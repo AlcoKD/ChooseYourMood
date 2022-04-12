@@ -1,0 +1,55 @@
+#footer-main-container {
+	width: 100%;
+	height: 25vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	background: #98afab;
+	row-gap: 1rem;
+}
+
+.footer-h5 {
+	font-size: 1.2rem;
+	color: #1c4e39;
+	text-transform: uppercase;
+}
+
+#footer-icons-container {
+	display: flex;
+	column-gap: 0.4rem;
+}
+
+.footer-icons {
+	font-size: 1.5rem;
+	cursor: pointer;
+	padding: 0 0.4rem;
+	animation-name: scale-up;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes scale-up {
+	from {
+
+	} to {
+		transform: scale(1.1);
+	}
+}
+
+.footer-icons:hover {
+	color: var(--blue);
+}
+
+#footer-end {
+	width: 100%;
+	background: white;
+	text-align: center;
+}
+
+@media only screen and  (max-width: 760px) {
+	.footer-h5 {;
+		text-align: center;
+		font-size: 1rem;
+	}
+}
