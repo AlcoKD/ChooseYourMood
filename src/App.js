@@ -22,6 +22,7 @@ componentDidMount() {
 setInterval(()=> {
   function cycleReloadImg(){
   const imgStateLp = document.getElementById('img-state');
+  console.log(imgStateLp.getAttribute('src'))
       if(imgStateLp.getAttribute('src') === '/ChooseYourMood/static/media/fp-yel-sk.b83da908bf5097a08eb7.jpg'){
         setTimeout(()=> {
           imgStateLp.setAttribute('src', fp_cen);
@@ -38,7 +39,7 @@ setInterval(()=> {
         },1000)
       }
       else {
-        console.log('ciao')
+        console.log(imgStateLp.getAttribute('src'))
       }   
     }cycleReloadImg();
   },3000)
