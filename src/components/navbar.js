@@ -1,6 +1,6 @@
 import '../css/navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faMagnifyingGlass, faCartShopping, faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faCartShopping, faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import logo from '../img/logo.jpeg';
 const Navbar = () => {
 	return(
@@ -11,9 +11,8 @@ const Navbar = () => {
 				<div id='nb-logo-container'><img src={logo} alt='logo' id='logo'/></div>
 				<div id='nb-header-container'><header><h1 id='title'>Choose Your Mood</h1></header></div>
 				<div id='nb-icons-container'>
-				<FontAwesomeIcon icon={faMagnifyingGlass} className='nb-fai-icons'/>
-				<FontAwesomeIcon icon={faUser} className='nb-fai-icons'/>
-				<FontAwesomeIcon icon={faCartShopping} className='nb-fai-icons'/>
+				<FontAwesomeIcon icon={faMagnifyingGlass} className='nb-fai-icons' id='search-icon'/>
+				<FontAwesomeIcon icon={faCartShopping} className='nb-fai-icons' id='cart-icon'/>
 				</div>
 			</div>
 

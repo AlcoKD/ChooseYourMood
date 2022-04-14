@@ -1,0 +1,54 @@
+#es-main-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#es-top-icon-container {
+	width: 100%;
+	height: 20%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+	justify-content: center;
+	text-align: center;
+	border-bottom: 2px solid white;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+#es-icon-size {
+	font-size: 3rem;
+}
+
+#es-p-text-top {
+	letter-spacing: 0.1rem;
+	font-size: 1.3rem;
+}
+
+#es-p-text {
+	letter-spacing: 0.2rem;
+}
+
+#es-center-container {
+	width: 100%;
+	height: 80%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#es-shop-button {
+	font-size: 1.2rem;
+	letter-spacing: 0;
+	word-break: break-all;
+	font-weight: 700;
+}
+
+#es-shop-button:hover {
+	color: var(--green);
+}

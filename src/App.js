@@ -4,6 +4,7 @@ import LandingPage from './components/landingpage';
 import Body from './components/body';
 import Footer from './components/footer';
 import ShopWindow from './components/shopwindow';
+import SearchBar from './components/searchbar';
 //images imports
 import fp_cen from './img/fp-cen.jpg';
 import fp_yel_sk from './img/fp-yel-sk.jpg';
@@ -94,6 +95,33 @@ animationOnScrollSecondBodyTextContainer();
         return;
     }
   }
+// CART SHOP SHOW AND DISCARD
+  const mainCartIcon = document.getElementById('cart-icon');
+  const shopWindowContainer = document.getElementById('sw-main-container');
+  mainCartIcon.addEventListener('click', showShopWindow);
+  shopWindowContainer.addEventListener('mouseleave', discardShopWindow);
+
+  function showShopWindow(){
+    shopWindowContainer.style.display = 'flex';
+  }
+
+  function discardShopWindow(){
+    shopWindowContainer.style.display = 'none';
+  }
+//SEARCH ICON SHOW AND DISCARD
+  const mainSearchIcon = document.getElementById('search-icon');
+  const searchBarContainer = document.getElementById('sb-main-container');
+  const xSbIcon = document.getElementById('sb-X-icon');
+  mainSearchIcon.addEventListener('click', showSearchBar);
+  xSbIcon.addEventListener('click', discardSearchBar);
+
+  function showSearchBar(){
+    searchBarContainer.style.display = 'flex';
+  }
+
+  function discardSearchBar(){
+    searchBarContainer.style.display = 'none';
+  }
 }
 
   render(){
@@ -104,6 +132,8 @@ animationOnScrollSecondBodyTextContainer();
           <LandingPage/>
             <Body />
               <Footer />
+                <ShopWindow />
+                  <SearchBar />
       </div>
 
       );

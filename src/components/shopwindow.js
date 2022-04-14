@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import EmptyShop from '../ShopSwitches/emptyshop';
 import '../css/shopwindow.css';
 
 class ShopWindow extends Component {
@@ -20,7 +21,7 @@ class ShopWindow extends Component {
 			<div id='sw-main-container'>
 			{
 				this.state.cartCheck === 'empty' ?
-				<div>works</div> : 
+				<EmptyShop /> : 
 				<div>cacca</div>
 			}
 			</div>
