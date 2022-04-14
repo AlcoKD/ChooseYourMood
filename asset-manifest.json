@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ChooseYourMood/static/css/main.f8407d49.css",
-    "main.js": "/ChooseYourMood/static/js/main.e9eab701.js",
+    "main.css": "/ChooseYourMood/static/css/main.f01f15fb.css",
+    "main.js": "/ChooseYourMood/static/js/main.863682e9.js",
     "static/js/787.09f622f4.chunk.js": "/ChooseYourMood/static/js/787.09f622f4.chunk.js",
     "static/media/fp-yel-duo.jpg": "/ChooseYourMood/static/media/fp-yel-duo.a258c836dd4aa985f942.jpg",
     "static/media/fp-yel-sk.jpg": "/ChooseYourMood/static/media/fp-yel-sk.b83da908bf5097a08eb7.jpg",
@@ -10,12 +10,12 @@
     "static/media/fp-duo.jpeg": "/ChooseYourMood/static/media/fp-duo.0af9c40cc3ba6d7883cc.jpeg",
     "static/media/logo.jpeg": "/ChooseYourMood/static/media/logo.5ca8b2e644ab1954693c.jpeg",
     "index.html": "/ChooseYourMood/index.html",
-    "main.f8407d49.css.map": "/ChooseYourMood/static/css/main.f8407d49.css.map",
-    "main.e9eab701.js.map": "/ChooseYourMood/static/js/main.e9eab701.js.map",
+    "main.f01f15fb.css.map": "/ChooseYourMood/static/css/main.f01f15fb.css.map",
+    "main.863682e9.js.map": "/ChooseYourMood/static/js/main.863682e9.js.map",
     "787.09f622f4.chunk.js.map": "/ChooseYourMood/static/js/787.09f622f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8407d49.css",
-    "static/js/main.e9eab701.js"
+    "static/css/main.f01f15fb.css",
+    "static/js/main.863682e9.js"
   ]
 }
